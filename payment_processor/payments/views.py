@@ -1,5 +1,9 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-def index(request) -> HttpResponse:
-    return HttpResponse("Hello world!")
+def payment(request) -> HttpResponse:
+
+    if request.method == "POST":
+        pass 
+    
+    return    
